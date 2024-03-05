@@ -17,6 +17,6 @@ export const Blog = () => {
     }
 
     return <div>
-    <BlogDetails blog = {blog} />
+    {blog && <BlogDetails blog = {blog} />}
 </div>
 }
